@@ -1,0 +1,62 @@
+.header {
+	background-color: #27a9e0;
+}
+
+.header h2 {
+	color: #fff;
+	margin: 30px 0 10px
+}
+
+.header p {
+	color: #fff;
+	margin: 0 0 30px;
+}
+
+.syntax {
+	background-color: #ededed;
+	padding: 30px 20px 20px;
+	border: 1px solid #dadada;
+	position: relative;
+}
+
+.syntax:before {
+	content: "Syntax";
+	text-transform: uppercase;
+	font-size: .7em;
+	color: #bbb;
+	font-weight: 700;
+	position: absolute;
+	top: 10px;
+	left: 20px;
+}
+
+code {
+	padding: 0;
+}
+
+.footer .pwn-xs-12 {
+	margin-top: 30px;
+	margin-bottom: 40px;
+	padding-top: 30px;
+	border-top: 1px solid #ededed;
+}
+
+.footer ul {
+	list-style-type: none;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+
+.footer li {
+	padding: 0;
+	margin: 0;
+	display: inline-block;
+}
+
+.footer a {
+	display: block;
+	padding: 6px 18px;
+	color: #27a9e0;
+	font-size: .8em;
+}
